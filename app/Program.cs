@@ -9,16 +9,9 @@ namespace ConsoleAPP
     {
         static void Main(string [] args){
             Console.WriteLine("works");
-            int num1= 5;
-            int num2= 6;
-            double num3= 2.57;
-            double suma= num1 + num3;
-
-            Console.WriteLine(suma);
-            string valor1= Console.ReadLine();
-            Console.WriteLine("El valor introduciod es: " + valor1);
-            int valorInt= Convert.ToInt32(valor1);
-            Console.WriteLine("valor int" + valorInt);
+            int num1= 6;
+            int num2= 5;
+            Console.WriteLine("suma = "+(num1+num2)+ " resta = "+(num1-num2)+ " multiplicacion = "+(num1*num2)+ " division = "+(num1/num2)+ " modulo = "+(num1%num2));
         }
     }
 }
